@@ -78,7 +78,7 @@ contactForm.addEventListener("submit", async function (event) {
     try {
 
         // Send information to Express backend
-        const response = await fetch("http://localhost:3000/api/contact", {
+        const response = await fetch("https://shanmuganathan-portfolio-production.up.railway.app/api/contact", {
 
             method: "POST",
 
